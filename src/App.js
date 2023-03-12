@@ -9,7 +9,7 @@ function App() {
         <a
             href="https://javhd.ws"
         >
-            Learn react
+            Learn react version 2
         </a>
       </header>
     </div>
