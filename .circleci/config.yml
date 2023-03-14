@@ -8,7 +8,7 @@ orbs:
   docker: circleci/docker@2.2.0
 jobs:
    build-and-push:
-   environment:
+    environment:
      DOCKER_IMAGE: lodaidelima/musicapp
      DOCKER_TAG: latest
     executor: docker/docker
