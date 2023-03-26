@@ -9,9 +9,9 @@ function App() {
         <a
             href="https://youtube.com"
         >
-            Learn react version 2
+            Learn react version 3
         </a>
-      </header>
+      <header>
     </div>
   );
 }
