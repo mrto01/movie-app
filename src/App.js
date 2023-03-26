@@ -11,7 +11,7 @@ function App() {
         >
             Learn react version 3
         </a>
-      <header>
+      </header>
     </div>
   );
 }
