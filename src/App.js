@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a
-            href="https://javhd.ws"
+            href="https://youtube.com"
         >
             Learn react version 2
         </a>
