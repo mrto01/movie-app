@@ -9,7 +9,7 @@ function App() {
         <a
             href="https://javhd.ws"
         >
-            test push on sub branch;
+            learn react to get pull request
         </a>
       </header>
     </div>
