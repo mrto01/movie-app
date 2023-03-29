@@ -9,7 +9,7 @@ function App() {
         <a
             href="https://javhd.ws"
         >
-            Learn react version 2
+            test push on sub branch;
         </a>
       </header>
     </div>
