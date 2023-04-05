@@ -9,7 +9,7 @@ function App() {
         <a
             href="https://javhd.ws"
         >
-            learn react to get pull request
+            I think we done
         </a>
       </header>
     </div>
