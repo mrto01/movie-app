@@ -32,12 +32,7 @@ jobs:
       - add_ssh_keys: 
           fingerprints: 
             - "ca:ed:2c:49:88:5b:67:67:01:2e:21:f5:00:92:6d:98"
-      - run: 
-          name: Install sshpass
-          command: |
-            ssh -oStrictHostKeyChecking=no -v lodai@mrtoapp.click
-            daidz
-            './deploy.sh'
+      - run: ssh -oStrictHostKeyChecking=no -v lodai@mrtoapp.click './deploy.sh'
 workflows:
   automation: 
     jobs:
