@@ -34,9 +34,9 @@ jobs:
             - "ca:ed:2c:49:88:5b:67:67:01:2e:21:f5:00:92:6d:98"
       - run: 
           name: Install sshpass
-          command: 
-            - sudo apt-get install -y sshpass
-            - sshpass -p daidz ssh -oStrictHostKeyChecking=no -v lodai@mrtoapp.click './deploy.sh'
+          command: |
+             sudo apt-get install -y sshpass
+             sshpass -p daidz ssh -oStrictHostKeyChecking=no -v lodai@mrtoapp.click './deploy.sh'
 workflows:
   automation: 
     jobs:
