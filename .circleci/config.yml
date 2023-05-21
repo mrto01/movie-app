@@ -31,7 +31,7 @@ jobs:
     steps: 
       - add_ssh_keys: 
           fingerprints: 
-            - "ca:ed:2c:49:88:5b:67:67:01:2e:21:f5:00:92:6d:98"
+            - "e1:9f:7f:14:b0:cd:1c:18:15:10:d3:86:25:9c:9c:5b"
       - run: ssh -oStrictHostKeyChecking=no -v lodai@mrtoapp.click './deploy.sh'
 workflows:
   automation: 
