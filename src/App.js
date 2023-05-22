@@ -3,16 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-            href="https://facebook.com"
-        >
-            Learn react , link to facebook
-        </a>
-      </header>
-    </div>
+    <div class="container" onclick="onclick">
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="center">
+          <h2>Please Sign In</h2><input type="email" placeholder="email" /><input type="password" placeholder="password" />
+          <h2>&nbsp;</h2>
+      </div>
+   </div>
   );
 }
 
