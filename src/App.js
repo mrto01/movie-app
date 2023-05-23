@@ -8,7 +8,7 @@ function App() {
       <div class="bottom"></div>
       <div class="center">
           <h2>Please Sign In</h2><input type="email" placeholder="email" /><input type="password" placeholder="password" />
-          <button type="submit">submit</button>
+          
           <h2>&nbsp;</h2>
       </div>
    </div>
